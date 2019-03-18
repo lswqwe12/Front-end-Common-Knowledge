@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>HolyGrail</title>
+        <style>
+            * {
+                margin: 0;
+                padding: 0;
+            }
+            body {
+                background-color: #cccccc;
+                text-align: center;
+            }
+            header {
+                height: 50px;
+                background-color: pink;
+                line-height: 50px;
+            }
+            .container {
+                padding:0 220px 0 200px;
+            }
+            .middle, .left, .right {
+                min-height: 300px;
+                float: left;
+                position: relative;
+            }
+            .middle {
+                background-color: #ff0000;
+                width: 100%;
+            }
+            .left {
+                width: 200px;
+                background-color: #ffff00;
+                margin-left: -100%;
+                left: -200px;
+            }
+            .right {
+                width: 220px;
+                background-color: #0000ff;
+                margin-left: -220px;
+                right: -220px;
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <h2>我是header</h2>
+        </header>
+        <div class="container">
+            <div class="middle">
+                <h4>我是Middle</h4>
+                <p>我是内容部分我是内容部分我是内容部分我是内容部分</p>
+            </div>
+            <div class="left">
+                <h4>我是left</h4>
+                <p>我是left的内容</p>
+            </div>
+            <div class="right">
+                <h4>我是right</h4>
+                <p>我是right的内容</p>
+            </div>
+        </div>
+    </body>
+</html>
